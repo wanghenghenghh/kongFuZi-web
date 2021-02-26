@@ -1,0 +1,48 @@
+.box {
+    width: 404px;
+    height: 500px;
+    margin: 200px auto;
+    border: 1px solid #ccc;
+}
+.box h2 {
+    margin-left: 40px;
+    float: left;
+    width: 100px;
+    height: 50px;
+    border: 1px solid salmon;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box .xieyi {
+    width: 15px;
+    height: 15px;
+
+}
+.denglu,.zhuce{
+    cursor: pointer;
+}
+.deng p, .zhu p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.deng input,.zhu input{
+    border: none;
+    /* outline: none; */
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    width: 400px;
+    height: 50px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.current{
+    background-color: #f40;
+    color: #fff;
+}
+.zhu {
+    display: none;
+}

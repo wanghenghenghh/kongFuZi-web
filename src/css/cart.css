@@ -1,0 +1,176 @@
+.box{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid pink;
+}
+.big {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.big .nav {
+    /* background-color: pink; */
+    font-size: 13px;
+    height: 58px;
+    line-height: 58px;
+    color: #969696;
+}
+.big .nav span {
+    margin-left: 200px;
+}
+.big .nav  i {
+    margin-left: 266px;
+}
+.big .nav  b {
+    margin-left: 50px;
+}
+.big .nav .shu{
+margin-left: 90px;
+}
+.big .nav strong {
+    margin-left: 30px;
+}
+
+.big .small {
+    padding-left: 15px;
+    height: 32px; 
+}
+.big .small span {
+    font-size: 11px;
+    color: #323232;
+    padding-left: 20px;
+}
+.big .bbj {
+    overflow: hidden;
+    height: 160px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+
+}
+.big .bbj p .top_1{
+    margin-top: 50px;
+    width: 55px;
+    text-align: center;
+}
+.big .bbj p {
+    margin-top: 20px;
+    float: left;
+}
+.big .bbj p img {
+    width: 70px;
+    height: 77px;
+    margin-top: 20px;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+.big .bbj p img:hover{
+    transform: scale(1.5);
+}
+.big .bbj p:nth-child(3){
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 330px;
+    height: 40px;
+    font-size: 12px;
+    color: #323232;
+}
+.big .bbj p:nth-child(4){
+    margin-left: 86px;
+    font-size: 10px;
+    color: #969696;
+}
+.big .bbj p  .cc {
+    width: 20px;
+    text-align: center
+}
+.bgc {
+    background-color: rgb(255, 244, 231);
+}
+.big .bbj p .aa ,.big .bbj p .nnn {
+    width: 20px;
+}
+.big .bbj p:nth-child(5){
+    margin-left: 100px;
+}
+.big .bbj p:nth-child(6){
+    margin-left: 40px;
+    font-size: 10px;
+    color: #ff2832;
+}
+.big .bbj p:nth-child(7){
+    float: right;
+    font-size: 12px;
+    color: #323232;
+    margin-right: 10px;
+    position: relative;
+}
+.big .bbj p:nth-child(7) input{
+    cursor: pointer;
+    position: absolute;
+    top: 17px;
+    border: none;
+    left: 11px;
+    text-align: center;
+    width: 30px;
+    font-size: 12px;
+    height: 20px;
+} 
+.big .buttom{
+    height: 52px;
+    border-bottom: 1px solid #ebebeb;
+    /* background-color: pink; */
+}
+.big .buttom p {
+    font-size: 11px;
+    color: #323232;
+    margin-top: 20px;
+}
+.big .buttom p:nth-child(1){
+    float: left;
+    margin-left: 145px;
+}
+.big .buttom p:nth-child(2){
+    float: right;
+    margin-right: 70px;
+    color: #ff2832;
+}
+.all {
+    width: 100%;
+    margin-top: 40px;
+    height: 60px;
+    line-height: 60px;
+}
+.all  p {
+    float: left;
+}
+.all .ye {
+    height: 60px;
+    font-size: 10px;
+}
+.all .ye p:nth-child(3){
+    margin-left: 20px;
+}
+.all .ye p:nth-child(4){
+    margin-left: 80px;
+}
+.all .ye p:nth-child(4) span{
+    color: red;
+}
+.all .ye p:nth-child(5){
+    margin-left: 370px;
+}
+.all .ye p:nth-child(6){
+    font-size: 16px;
+    color: red;
+    margin-left: 10px;
+}
+.all .ye p:nth-last-child(1){
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 38px;
+    width: 115px;
+    height: 38px;
+    background-color: #ff2832;
+}

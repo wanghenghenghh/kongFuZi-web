@@ -1,0 +1,123 @@
+.box {
+    width: 1200px;
+    background-color: #ccc;
+    opacity: 0.8;
+    margin: 200px auto;
+}
+.box .top > img {
+    float: left;
+    width: 215px;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.box .top > img:hover{
+    transform: scale(1.2);
+}
+.box .top .right {
+    float: left;
+}
+.box .top .right h3 {
+    cursor: pointer;
+    font-size: 30px;
+    width: 985px;
+    height: 60px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 5px 35px;
+    overflow:hidden;
+}
+.box .top .right h3:hover{
+    color: #f40;
+}
+.box .top .right p {
+    cursor: pointer;
+    font-size: 20px;
+    width: 985px;
+    height: 60px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    overflow:hidden;
+}
+.box .top .right h2 {
+    margin-left: 20px;
+    width: 600px;
+    line-height: 100px;
+    font-weight: 900;
+    height: 100px;
+    background-color: #ccc;
+}
+.box .top .right h2 span {
+    color: red;
+}
+.box .top .right a {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    margin-left: 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    background-color: #f40
+}
+.box .top .right a:nth-child(1){
+    background-color: #ccc;
+}
+.box .bottom {
+    margin-top: 50px;
+}
+.box .bottom  span {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+.current {
+    background-color: #cc3014;
+}
+.box .bottom img {
+    width: 550px;
+    height: 750px;
+    margin: 60px auto;
+    display: block;
+}
+
+.box .bottom .jianjie {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.gouwuche {
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+}
+.gouwuche img {
+    display: block;
+}
+.gouwuche .gou {
+    position: absolute;
+    top:-20px;
+    right: 0;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    
+    color: #f40;
+}
+.bgc{
+    background-color: blue;
+}
